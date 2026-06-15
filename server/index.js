@@ -41,7 +41,7 @@ app.post('/api/message', async (req, res) => {
 
 // Vercel
 app.get('/', (req, res) => {
-  res.json({ message: 'Chat server is running' })
+  res.send.json({ message: 'Chat server is running' })
 })
 
 // ── Пользователь вошёл ──
